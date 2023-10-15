@@ -7,7 +7,7 @@ export default function AddEmployee({data, setData}){
         const gender = event.target.elements.gender.value
         const team = event.target.elements.team.value
         const updatedData = [...data, {
-            id:data.length,
+            id:data.length+1,
             name:firstName+" "+lastName,
             designation:designation,
             gender:gender,
