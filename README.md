@@ -30,7 +30,7 @@ The project uses the following technologies and libraries:
 
 ## Live Site
 
-See the live demo of this project [here.](https://google.com)
+See the live demo of this project [here.](https://team-member-management.netlify.app/)
 
 ## Issue(known so far)
 
