@@ -1,3 +1,41 @@
+# Team Member Management application
+
+This React project is a Team Member Management application. It allows users to manage a list of team members, assign them to different teams, and view team-specific details. Here's what the project does:
+
+1. **Routing:** The project uses the react-router-dom library to create routing for different sections of the application. It has three main routes:
+    * **Home:** Displays a list of team members.
+    * **Teams:** Displays team-specific information, including the ability to switch between teams.
+    * **Add Employee:** Allows users to add new team members to the application.
+
+2. **LocalStorage Data Persistence**: The project utilizes the localStorage to persist data. Employee data is stored in the browser's localStorage, which means that the data remains available even if the user closes and reopens the application.
+
+3. **Display Team Members:** The "Home" route (/) displays a list of team members. Users can click on team members to toggle their team assignment.
+
+4. **Grouped Members:** The "Teams" route (/allteams) displays team-specific information. Users can view the members of different teams, and team counts are updated dynamically.
+
+5. **Add New Employee:** The "Add Employee" route (/add_employee) allows users to add new team members to the application. Users can specify details such as first name, last name, designation, gender, and team assignment.
+
+6. **Team Filtering:** Users can filter team members by selecting a team from a dropdown on the "Home" page.
+
+7. **UI Interaction:** The project includes interactive features such as team member cards with a toggle effect when clicking to change the team assignment.
+
+## Technologies used
+
+The project uses the following technologies and libraries:
+
+* **React:** The JavaScript library for building user interfaces.
+* **React Router:** A library for handling routing in React applications.
+* **LocalStorage:** A web API for storing data in the browser.
+* **HTML & CSS:** For structuring and styling the application.
+
+## Live Site
+
+See the live demo of this project [here.](https://google.com)
+
+## Issue(known so far)
+
+In grouped members component we have to click the team 2 times to show the members and on first click only header changes.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

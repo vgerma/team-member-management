@@ -1,38 +1,153 @@
-.App {
-  text-align: center;
+*{
+    padding: 0;
+    margin: 0;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.member-card{
+    border: 1px black solid;
+    width:200px;
+    margin:12px;
+    font-family: Arial, Helvetica, sans-serif;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.member-card>img{
+    width:100%;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.member-card>p{
+    margin-left: 8px;
+    font-size:16px;
+    font-family: monospace;
 }
-
-.App-link {
-  color: #61dafb;
+.card-group{
+    width:75%;
+    display: block;
+    margin: 8px auto;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
 }
+.form-container{
+    /* border:1px red solid; */
+    display: flex;
+    justify-content: center;
+}
+#teamform{
+    font-family: monospace;
+    margin: 8px;
+    height: 32px;
+    width: 200px;
+}
+.listLinks{
+    /* border:1px solid black; */
+    background-color: rgb(233, 230, 230);
+    padding-left: 80px;
+}
+.listLinks>ul{
+    display: flex;
+    list-style: none;
+    
+}
+.linksItems{
+    margin: 10px;
+    padding: 15px;
+}
+a{
+    text-decoration: none;
+    color: rgb(19, 18, 18);
+    font-size: 18px;
+}
+span{
+    font-weight: bold;
+}
+.groupedmembers-details{
+    /* border:1px grey solid; */
+    margin:10px 0px;
+}
+.one-team{
+    border: 1px rgb(194, 188, 188) solid;
+    border-radius: 4px;
+    display: block;
+    margin: 10px auto;
+}
+.one-team>button{
+    width:100%;
+    background-color: transparent;
+    padding: 8px 24px;
+    margin: 5px 0;
+    border: none;
+    font-size: 18px;
+    color:rgb(53, 55, 57)
+    
+}
+.all-teams{
+    display: block;
+    margin:0 auto;
+    width:75%;
+    text-align: center;
+}
+.empty{
+    height:10px;
+}
+.brief-team{
+    display: block;
+    margin: 10px auto;
+    font-family: monospace;
+    font-weight: normal;
+    line-height: 2.6em;
+    width:60%;
+    text-align: center;
+    /* border: 1px solid black; */
+}
+input{
+    margin:8px 0px;
+    padding:8px 16px 2px 2px;
+    font-size: 16px;
+    letter-spacing: 1.1px;
+}
+label{
+    /* color:red; */
+    margin:18px 0px;
+}
+#add-employee-form{
+    width:400px;
+    display: block;
+    margin: 24px auto;
+    max-width: 50%;
+    padding:30px 80px;
+    /* border:1px red solid; */
+    letter-spacing: 1.1px;
+    border-radius: 16px;
+    box-shadow: 0px 0px 6px 6px rgb(22, 21, 21, 0.2);
+}
+#add-employee-form>select{
+    margin:8px 0px;
+    padding:8px 16px 2px 2px;
+    font-size: 16px;
+    letter-spacing: 1.1px;
+    border:1px rgb(109, 104, 104) solid;
+}
+.submit-button-container>button{
+    padding:8px 20px;
+    letter-spacing: 1.5px;
+    font-size: 16px;
+    background-color: transparent;
+    border-radius: 10px;
+    border:2px grey solid;
+    margin:8px auto;
+    display: block;
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+}
+.gender{
+    font-size: 16px;
+    letter-spacing: 1.1px;
+}
+.gender>input{
+    margin:0px 4px;
+}
+.submit-button-container{
+    width:50%;
+    /* border:1px red solid; */
+    display: block;
+    margin: auto;
+}
+.label{
+    font-weight:bold;
 }
